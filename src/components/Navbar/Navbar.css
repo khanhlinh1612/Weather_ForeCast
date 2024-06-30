@@ -1,0 +1,9 @@
+
+.navbar-content{
+    height: 12vh;
+    background-color: #5372f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
