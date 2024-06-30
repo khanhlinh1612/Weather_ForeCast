@@ -4,7 +4,7 @@ import './App.css';
 import Navbar from './components/Navbar/Navbar';
 import WeatherCard from './components/WeatherCard/WeatherCard';
 
-const API_BASE_URL = 'https://weather-forecast-be.onrender.com'; // Replace with your backend URL
+const API_BASE_URL = 'http://localhost:3001'; // Replace with your backend URL
 
 function App() {
   const [searchQuery, setSearchQuery] = useState('');
